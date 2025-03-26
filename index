@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css.css">
+</head>
+<body>
+  <div actions="[{&quot;trigger&quot;:&quot;componentDidMount&quot;,&quot;polling_period&quot;:0,&quot;timeout&quot;:0,&quot;kind&quot;:&quot;run_action&quot;,&quot;options&quot;:{&quot;action&quot;:214601,&quot;input_variables&quot;:{&quot;listingsQuery_categoryID&quot;:{&quot;dependencies&quot;:{&quot;variables&quot;:{&quot;NUMBER_ZERO&quot;:true},&quot;functions&quot;:{},&quot;rtk_queroes&quot;:null},&quot;jsx&quot;:&quot;{NUMBER_ZERO}&quot;},&quot;listingsQuery_currentLocation&quot;:{&quot;dependencies&quot;:{&quot;variables&quot;:{},&quot;functions&quot;:{&quot;initialCurrentLocation&quot;:true},&quot;rtk_queroes&quot;:null},&quot;jsx&quot;:&quot;{initialCurrentLocation()}&quot;},&quot;listingsQuery_fromUser&quot;:{&quot;dependencies&quot;:{&quot;variables&quot;:{&quot;CHECKBOX_FALSE&quot;:true},&quot;functions&quot;:{},&quot;rtk_queroes&quot;:null},&quot;jsx&quot;:&quot;{CHECKBOX_FALSE}&quot;},&quot;listingsQuery_keyword&quot;:{&quot;dependencies&quot;:{&quot;variables&quot;:{&quot;emptyStr&quot;:true},&quot;functions&quot;:{},&quot;rtk_queroes&quot;:null},&quot;jsx&quot;:&quot;{emptyStr}&quot;},&quot;listingsQuery_page&quot;:{&quot;dependencies&quot;:{&quot;variables&quot;:{&quot;NUMBER_ZERO&quot;:true},&quot;functions&quot;:{},&quot;rtk_queroes&quot;:null},&quot;jsx&quot;:&quot;{NUMBER_ZERO}&quot;}}},&quot;action&quot;:null,&quot;input_variables&quot;:null}]" data-df-attributes="{&quot;className&quot;:{&quot;attribute&quot;:&quot;className&quot;,&quot;options&quot;:[{&quot;expression&quot;:{&quot;filter&quot;:{&quot;condition&quot;:[{&quot;type&quot;:&quot;EqualCondition&quot;,&quot;criteria&quot;:&quot;a4aa10bb-3a04-40cb-8a1b-31bca4921e9a&quot;,&quot;and&quot;:true,&quot;variable&quot;:&quot;f4d1a454-cdd6-4207-b3a6-a91d64600be9&quot;},{&quot;type&quot;:&quot;EqualCondition&quot;,&quot;criteria&quot;:&quot;8145db31-d0e0-459d-934b-e52b96cbf9c7&quot;,&quot;and&quot;:true,&quot;variable&quot;:&quot;f4d1a454-cdd6-4207-b3a6-a91d64600be9&quot;}]}},&quot;filters&quot;:[],&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;0a0db1d7-6d7e-4256-b2e9-b42eade5cf4b&quot;}}],&quot;value&quot;:&quot;&quot;}}" id="igls46-2">
+    <div actions="[]" data-df-attributes="{&quot;className&quot;:{&quot;attribute&quot;:&quot;className&quot;,&quot;options&quot;:[{&quot;expression&quot;:{&quot;filter&quot;:{&quot;condition&quot;:[{&quot;type&quot;:&quot;EqualCondition&quot;,&quot;criteria&quot;:&quot;8145db31-d0e0-459d-934b-e52b96cbf9c7&quot;,&quot;and&quot;:true,&quot;variable&quot;:&quot;0d8511fb-1ebc-4de8-b9bb-f04c2b3a00f4&quot;}]}},&quot;filters&quot;:[],&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;2ce4911a-8deb-4f6b-a417-d5711b9757dc&quot;}}],&quot;value&quot;:&quot;initial-expanded&quot;}}" id="i5j0g3-2">
+      <div class="position-absolute start-0 end-0 top-0 bottom-0 d-flex flex-column">
+        <div data-df-attributes="{&quot;className&quot;:{&quot;attribute&quot;:&quot;className&quot;,&quot;options&quot;:[],&quot;value&quot;:&quot;expanded&quot;}}" id="iuli-2">
+          <nav class="navbar">
+            <div class="navbar-container">
+              <div class="navbar-left">
+                <!-- Left side empty to ensure logo stays centered -->
+              </div>
+              <div class="navbar-center"><a type="spa" href="/" target="_self" class="d-inline-block LinkBlock" id="ia9vq"><img src="https://dittofipublicfiles.s3.us-west-2.amazonaws.com/10792/95878-SessionsGuideLogoGreenStacked.png" class="logo" /></a></div>
+              <div class="navbar-right">
+                <div class="nav-links"><a href="/provider/listings" type="spa" class="nav-link">Become a seller</a><a href="/" type="spa" class="nav-link">Explore</a></div>
+                <div class="d-dropdown mx-0 d--open" autoclose="outside">
+                  <div class="d-dropdown-toggle border d-flex align-items-center p-2 px-3 rounded-pill"><i class="fas fa-bars"></i>
+                    <div class="d-flex ms-1">
+                      <div>
+                        <div class="symbol-40px"><img src="https://dittofipublicfiles.s3.us-west-2.amazonaws.com/5621/17266-Mask group.png" class="rounded-circle" /></div>
+                      </div>
+                      <div class="symbol-40px">
+                        <div class="rounded-circle label d-flex align-items-center justify-content-center bg-primary text-white"><i class="fas fa-user fs-5"></i></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-dropdown-list rounded mt-1 border shadow overflow-hidden end-0">
+                    <div class="list-group">
+                      <div class="border-bottom">
+                        <div class="list-group-item p-0 border-0">
+                          <div actions="[{&quot;trigger&quot;:&quot;onClick&quot;,&quot;polling_period&quot;:0,&quot;timeout&quot;:0,&quot;kind&quot;:&quot;run_action&quot;,&quot;options&quot;:{&quot;action&quot;:146143,&quot;input_variables&quot;:{}}]" class="btn w-100 text-start py-2"><span>Login</span></div>
+                        </div>
+                        <div class="list-group-item border-0 p-0">
+                          <div actions="[{&quot;trigger&quot;:&quot;onClick&quot;,&quot;polling_period&quot;:0,&quot;timeout&quot;:0,&quot;kind&quot;:&quot;run_action&quot;,&quot;options&quot;:{&quot;action&quot;:146143,&quot;input_variables&quot;:{}}]" class="btn w-100 text-start py-2 text-nowrap"><span>Sign Up</span></div>
+                        </div>
+                      </div>
+                      <div class="border-bottom">
+                        <div class="list-group-item p-0 border-0"><a href="/customer/messages" role="d-toggle-button" type="spa" class="btn w-100 text-start text-nowrap py-2 fw-bold">Messages</a></div>
+                        <div class="list-group-item p-0 border-0"><a href="/customer/bookings" role="d-toggle-button" type="spa" class="btn w-100 text-start text-nowrap py-2 fw-bold">Sessions</a></div>
+                        <div class="list-group-item p-0 border-0"><a href="/customer/favourites" role="d-toggle-button" type="spa" class="btn w-100 text-start text-nowrap py-2 fw-bold">Favorites</a></div>
+                      </div>
+                      <div>
+                        <div class="list-group-item p-0 border-0">
+                          <div class="list-group-item p-0 border-0"><a href="/admin/basics" role="d-toggle-button" type="spa" class="btn w-100 text-start text-nowrap py-2 border-0">Admin</a></div>
+                          <div class="list-group-item p-0 border-0"><a href="/provider/listings" role="d-toggle-button" type="spa" class="btn w-100 text-start text-nowrap py-2 border-0">Manage Listings</a><a href="/account" role="d-toggle-button" type="spa" class="btn w-100 text-start text-nowrap py-2 border-0">Account</a></div>
+                          <div actions="[{&quot;trigger&quot;:&quot;onClick&quot;,&quot;polling_period&quot;:0,&quot;timeout&quot;:0,&quot;kind&quot;:&quot;run_action&quot;,&quot;options&quot;:{&quot;action&quot;:146160,&quot;input_variables&quot;:{}}]" class="btn w-100 text-start"><span>Logout</span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="flex-grow-1 position-relative">
+          <div actions="[{&quot;trigger&quot;:&quot;onClick&quot;,&quot;polling_period&quot;:0,&quot;timeout&quot;:0,&quot;kind&quot;:&quot;run_action&quot;,&quot;options&quot;:{&quot;action&quot;:214658,&quot;input_variables&quot;:{}},&quot;action&quot;:null,&quot;input_variables&quot;:null}]" class="search-overlay"></div>
+          <div class="position-absolute start-0 end-0 top-0 bottom-0 d-flex flex-column overflow-auto">
+            <!-- Hero Section -->
+            <section class="hero-section">
+              <div class="hero-content">
+                <h1 data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:{},&quot;filters&quot;:[],&quot;options&quot;:{&quot;variable&quot;:&quot;7fc13c8f-6ed1-44c8-a6cd-667b98129334.485980.485962&quot;},&quot;type&quot;:&quot;variable&quot;}],&quot;value&quot;:&quot;SEARCH FOR A PRODUCT OF SERVICE THAT YOU DESPERATELY NEED!&quot;}}" class="hero-title">find + Book Sessions</h1>
+                <p id="izrkoo-2-2"><br /></p><!-- Search Bar -->
+                <div class="hero-search">
+                  <div class="card search-preview">
+                    <div class="card-body py-1 px-1">
+                      <form actions="[{&quot;trigger&quot;:&quot;onSubmit&quot;,&quot;polling_period&quot;:0,&quot;timeout&quot;:0,&quot;kind&quot;:&quot;run_action&quot;,&quot;options&quot;:{&quot;action&quot;:146230,&quot;input_variables&quot;:{&quot;listingsQueryWrapper_categoryID&quot;:{&quot;dependencies&quot;:{&quot;variables&quot;:{&quot;inputListingSearch&quot;:true},&quot;functions&quot;:{},&quot;rtk_queroes&quot;:null},&quot;jsx&quot;:&quot;{inputListingSearch[\&quot;category_id\&quot;]}&quot;},&quot;listingsQueryWrapper_currentLocation&quot;:{&quot;dependencies&quot;:{&quot;variables&quot;:{&quot;currentLocation&quot;:true},&quot;functions&quot;:{},&quot;rtk_queroes&quot;:null},&quot;jsx&quot;:&quot;{currentLocation}&quot;},&quot;listingsQueryWrapper_fromUser&quot;:{&quot;dependencies&quot;:{&quot;variables&quot;:{&quot;CHECKBOX_TRUE&quot;:true},&quot;functions&quot;:{},&quot;rtk_queroes&quot;:null},&quot;jsx&quot;:&quot;{CHECKBOX_TRUE}&quot;},&quot;listingsQueryWrapper_keyword&quot;:{&quot;dependencies&quot;:{&quot;variables&quot;:{&quot;inputListingSearch&quot;:true},&quot;functions&quot;:{},&quot;rtk_queroes&quot;:null},&quot;jsx&quot;:&quot;{inputListingSearch[\&quot;keywords\&quot;]}&quot;},&quot;listingsQuery_fromUser&quot;:{&quot;dependencies&quot;:{&quot;variables&quot;:{&quot;CHECKBOX_TRUE&quot;:true},&quot;functions&quot;:{},&quot;rtk_queroes&quot;:null},&quot;jsx&quot;:&quot;{CHECKBOX_TRUE}&quot;}}}]}">
+                        <div class="d-flex">
+                          <div class="flex-grow-1 d-flex align-items-center">
+                            <div class="container">
+                              <div class="row">
+                                <!-- 1. Keyword -->
+                                <div class="col-md-4 col-sm-12 border-end">
+                                  <div class="form-floating w-100"><input type="default" class="form-control border-0 shadow-none" name="545fe694-eefb-465a-95be-1845a1329b33.573467" placeholder="Keyword" /><label>Search by Keyword</label></div>
+                                </div><!-- 2. Location -->
+                                <div class="col-md-4 col-sm-12 border-end">
+                                  <div class="d-dropdown w-100 d--closed" autoclose="outside" name="6da73944-bd1f-4ff1-b128-67eb3c87d83c">
+                                    <div class="d-dropdown-toggle w-100 form-floating p-0 cursor-pointer" role="d-toggle-button"><label>Location</label><input type="default" class="d-input form-control border-0 shadow-none bg-transparent cursor-pointer" actions="[{&quot;trigger&quot;:&quot;onFocus&quot;,&quot;polling_period&quot;:0,&quot;timeout&quot;:0,&quot;kind&quot;:&quot;run_action&quot;,&quot;options&quot;:{&quot;action&quot;:146217,&quot;input_variables&quot;:{&quot;blurEvent&quot;:{&quot;dependencies&quot;:{&quot;variables&quot;:{&quot;e&quot;:true},&quot;functions&quot;:{},&quot;rtk_queroes&quot;:null},&quot;jsx&quot;:&quot;{e}&quot;}}}}]" autocomplete="off" name="72f36900-5f15-4d8f-b827-800e5c0b18de.573547" placeholder="Search destinations" value="" /></div>
+                                  </div>
+                                </div><!-- 3. Date -->
+                                <div class="col-md-4 col-sm-12">
+                                  <div class="form-floating w-100"><input type="date" class="form-control border-0 shadow-none" name="545fe694-eefb-465a-95be-1845a1329b33.573465" placeholder="From" /><label>From</label></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="d-flex align-items-center search-button-container"><button class="btn btn-primary label d-flex align-items-center justify-content-center" type="submit"><i class="fas fa-search"></i></button></div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div><!-- Hero Buttons -->
+                <div class="hero-buttons">
+                  <div actions="[{&quot;trigger&quot;:&quot;onClick&quot;,&quot;polling_period&quot;:0,&quot;timeout&quot;:0,&quot;kind&quot;:&quot;run_action&quot;,&quot;options&quot;:{&quot;action&quot;:146143,&quot;input_variables&quot;:{}}]" class="btn"><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:{},&quot;filters&quot;:[],&quot;options&quot;:{&quot;variable&quot;:&quot;7fc13c8f-6ed1-44c8-a6cd-667b98129334.485977.485887&quot;},&quot;type&quot;:&quot;variable&quot;}],&quot;value&quot;:&quot;Get Started&quot;}}" class="me-2">Login</span><i class="fa fa-external-link"></i></div>
+                  <div actions="[{&quot;trigger&quot;:&quot;onClick&quot;,&quot;polling_period&quot;:0,&quot;timeout&quot;:0,&quot;kind&quot;:&quot;run_action&quot;,&quot;options&quot;:{&quot;action&quot;:146143,&quot;input_variables&quot;:{&quot;modalShowLoginProviderRedirect&quot;:{&quot;dependencies&quot;:{&quot;variables&quot;:{&quot;CHECKBOX_TRUE&quot;:true},&quot;functions&quot;:{},&quot;rtk_queroes&quot;:null},&quot;jsx&quot;:&quot;{CHECKBOX_TRUE}&quot;}}}}]" class="btn btn-outline"><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;7fc13c8f-6ed1-44c8-a6cd-667b98129334.485977.485924&quot;}}],&quot;value&quot;:&quot;Become A Seller&quot;}}" class="me-2">Offer a session</span><i class="fa fas fa-angle-right"></i></div>
+                </div>
+              </div>
+            </section><!-- Categories Section -->
+            <section class="categories-section">
+              <div class="categories-container">
+                <!-- Feature Cards Section -->
+                <section class="feature-cards-section">
+                  <div class="container">
+                    <h2 class="section-title">Find Sessions Like:</h2>
+                    <div class="feature-cards-grid">
+                      <!-- Card 1 --><a type="external" href="https://www.consciouscityguide.com" target="_self" class="feature-card">
+                        <div class="feature-card-content">
+                          <h3 class="feature-card-title">Reiki + Energy Healing</h3>
+                        </div>
+                      </a><!-- Card 2 --><a type="external" href="https://www.consciouscityguide.com" target="_self" class="feature-card">
+                        <div class="feature-card-content">
+                          <h3 class="feature-card-title">Medicine Journeys</h3>
+                        </div>
+                      </a><!-- Card 3 --><a type="external" href="https://www.consciouscityguide.com" target="_self" class="feature-card">
+                        <div class="feature-card-content">
+                          <h3 class="feature-card-title">
+                            <h3 draggable="false" id="i5mrqe-2" class="feature-card-title gjs-selected">Ayurveda + TCM + Herbalism</h3>
+                          </h3>
+                        </div>
+                      </a><!-- Card 4 --><a type="external" href="https://www.consciouscityguide.com" target="_self" class="feature-card">
+                        <div class="feature-card-content">
+                          <h3 class="feature-card-title">Tarot + Human Design + Astrology</h3>
+                        </div>
+                      </a><!-- Card 5 --><a type="external" href="https://www.consciouscityguide.com" target="_self" class="feature-card">
+                        <div class="feature-card-content">
+                          <h3 class="feature-card-title">coaching + therapy</h3>
+                        </div>
+                      </a><!-- Card 6 --><a type="external" href="https://www.consciouscityguide.com" target="_self" class="feature-card">
+                        <div class="feature-card-content">
+                          <h3 class="feature-card-title">Meditation + Ceremony</h3>
+                        </div>
+                      </a><!-- Card 7 --><a type="external" href="https://www.consciouscityguide.com" target="_self" class="feature-card">
+                        <div class="feature-card-content">
+                          <h3 class="feature-card-title">Doulas</h3>
+                        </div>
+                      </a><!-- Card 8 --><a type="external" href="https://www.consciouscityguide.com" target="_self" class="feature-card">
+                        <div class="feature-card-content">
+                          <h3 class="feature-card-title">Ayurveda + TCM + Herbalism</h3>
+                        </div>
+                      </a><!-- Card 9 --><a type="external" href="https://www.consciouscityguide.com" target="_self" class="feature-card">
+                        <div class="feature-card-content">
+                          <h3 class="feature-card-title">Nutrition + Health</h3>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </section>
+            <div id="il371q">
+              <div class="container pt-lg-5 pt-3 text-lg-start text-center">
+                <div class="d-modal d--closed" activetab="0" autoclose="none" id="i6nhkg" name="d9306ea7-5e07-42d5-82c7-2ede720cf92b">
+                  <div class="d-modal-wrapper">
+                    <div class="d-modal-box border rounded">
+                      <div class="d-tabs" activetab="1" data-df-type="tabs" id="i7tt6v" name="5dc848a3-4bb3-43f6-aaa1-5742a4962e75">
+                        <div data-df-type="tab-content" class="d-tab-content">
+                          <div data-df-type="tab-pane" class="d-tab-pane">
+                            <div class="d-modal-header">
+                              <div class="d-flex">
+                                <h4 data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809613.809592&quot;}}],&quot;value&quot;:&quot;Log in&quot;}}">Log in</h4>
+                                <h4 data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809619.809811&quot;}}],&quot;value&quot;:&quot;or&quot;}}" class="mx-1">or</h4>
+                                <h4 data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809613.809544&quot;}}],&quot;value&quot;:&quot;sign up&quot;}}">sign up</h4>
+                              </div>
+                              <div class="d-flex">
+                                <div><i class="fas fa-times" role="d-toggle-button"></i></div>
+                                <div actions="[]"><label type="checkbox" class="d-radio p-0"><input type="radio" class="d-radio-input d-none" data-df-attributes="{&quot;value&quot;:{&quot;attribute&quot;:&quot;value&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;f5e350b3-bc86-4dd2-9630-6cf5a7aaaa2b&quot;}}],&quot;value&quot;:&quot;&quot;}}" name="5dc848a3-4bb3-43f6-aaa1-5742a4962e75" /><i class="fas fa-arrow-left"></i></label></div>
+                              </div>
+                            </div>
+                            <div class="d-modal-body">
+                              <div class="d-flex"><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809620.809624&quot;}}],&quot;value&quot;:&quot;Email&quot;}}">Email</span></div>
+                              <form actions="[{&quot;trigger&quot;:&quot;onSubmit&quot;,&quot;polling_period&quot;:0,&quot;timeout&quot;:0,&quot;kind&quot;:&quot;run_action&quot;,&quot;options&quot;:{&quot;action&quot;:214655,&quot;input_variables&quot;:{&quot;authenticationSetSignupTabIndex&quot;:{&quot;dependencies&quot;:{&quot;variables&quot;:{&quot;NUMBER_ONE&quot;:true},&quot;functions&quot;:{},&quot;rtk_queroes&quot;:null},&quot;jsx&quot;:&quot;{NUMBER_ONE}&quot;}}},&quot;action&quot;:null,&quot;input_variables&quot;:null}]">
+                                <div data-preview-valid="all" class="d--form-group"><input type="email" class="d-input form-control" name="711b9880-6002-42aa-8cd4-0978b7cbebaf.809948" placeholder="" required="true" />
+                                  <div class="d--invalid-feedback"><span>Required field</span></div>
+                                </div>
+                                <div class="mb-1 text-danger small"><span>Email already in use</span></div><a data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809619.809812&quot;}}],&quot;value&quot;:&quot;Continue&quot;}}" type="submit" class="btn btn-primary w-100">Continue</a>
+                              </form>
+                              <div>
+                                <div class="border-top pt-3 mt-3"><a type="submit" href="#" target="_self" class="btn btn-lg btn-block w-100 btn-outline-primary position-relative d-flex justify-content-center align-items-center mb-2 text-dark" data-df-attributes="{&quot;href&quot;:{&quot;attribute&quot;:&quot;href&quot;,&quot;options&quot;:[{&quot;expression&quot;:{},&quot;filters&quot;:[{&quot;type&quot;:&quot;custom_script&quot;,&quot;options&quot;:{&quot;code_id&quot;:46522,&quot;parameter_mapping&quot;:{&quot;b21d5e07-50ee-4c05-81fc-0750b0798b57&quot;:&quot;3687f93b-d2c0-40f4-8498-092e796a9f5d&quot;}}}],&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;35e6e1a8-e20b-401d-8c7e-7953c44cb144.809681&quot;}}],&quot;value&quot;:&quot;#&quot;}}"> <i class="position-absolute start-0 fab fa-google ms-3"></i><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809621.809462&quot;}}],&quot;value&quot;:&quot;Continue with Google&quot;}}">Continue with google</span></a><a type="submit" href="#" target="_self" class="btn btn-lg btn-block w-100 btn-outline-primary position-relative d-flex justify-content-center align-items-center mb-2 text-dark" data-df-attributes="{&quot;href&quot;:{&quot;attribute&quot;:&quot;href&quot;,&quot;options&quot;:[{&quot;expression&quot;:{},&quot;filters&quot;:[{&quot;type&quot;:&quot;custom_script&quot;,&quot;options&quot;:{&quot;code_id&quot;:46522,&quot;parameter_mapping&quot;:{&quot;b21d5e07-50ee-4c05-81fc-0750b0798b57&quot;:&quot;3687f93b-d2c0-40f4-8498-092e796a9f5d&quot;}}}],&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;35e6e1a8-e20b-401d-8c7e-7953c44cb144.809680&quot;}}],&quot;value&quot;:&quot;#&quot;}}"> <i class="position-absolute start-0 fab ms-3 fa-facebook"></i><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:{},&quot;filters&quot;:[],&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809621.809461&quot;}}],&quot;value&quot;:&quot;Continue with Google&quot;}}">Continue with Facebook</span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div data-df-type="tab-pane" class="d-tab-pane d--tab-active">
+                            <div class="d-modal-header">
+                              <h4 data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809613.809544&quot;}}],&quot;value&quot;:&quot;Sign up&quot;}}">Sign up</h4>
+                              <div class="d-flex">
+                                <div actions="[]"><label type="checkbox" class="d-radio p-0"><input type="radio" class="d-radio-input d-none" data-df-attributes="{&quot;value&quot;:{&quot;attribute&quot;:&quot;value&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;f5e350b3-bc86-4dd2-9630-6cf5a7aaaa2b&quot;}}],&quot;value&quot;:&quot;&quot;}}" name="5dc848a3-4bb3-43f6-aaa1-5742a4962e75" /><i class="fas fa-arrow-left"></i></label></div>
+                              </div>
+                            </div>
+                            <div class="d-modal-body" id="iskzln">
+                              <form actions="[{&quot;trigger&quot;:&quot;onSubmit&quot;,&quot;polling_period&quot;:0,&quot;timeout&quot;:0,&quot;kind&quot;:&quot;run_action&quot;,&quot;options&quot;:{&quot;action&quot;:214616,&quot;input_variables&quot;:{}},&quot;action&quot;:null,&quot;input_variables&quot;:null}]">
+                                <div id="iv6ekj">
+                                  <div>
+                                    <div data-preview-valid="all" class="d--form-group"><label>User Type</label><select class="d-input form-select" name="711b9880-6002-42aa-8cd4-0978b7cbebaf.809955" required="true" type="default">
+                                        <option value="0">Choose User Type</option>
+                                        <option data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;300738d3-8ed4-49b9-833f-870dc531b1ec.428308&quot;}}],&quot;value&quot;:&quot;Option 2&quot;},&quot;value&quot;:{&quot;attribute&quot;:&quot;value&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;300738d3-8ed4-49b9-833f-870dc531b1ec.428307&quot;}}],&quot;value&quot;:&quot;opt2&quot;}}" data-df-repeating-with="{&quot;as&quot;:&quot;300738d3-8ed4-49b9-833f-870dc531b1ec&quot;,&quot;options&quot;:{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;d6c15340-c6e5-4193-a08b-2cdb1b687315&quot;}}}" value="opt2">Option 2</option>
+                                      </select>
+                                      <div class="d--invalid-feedback"><span>Required field</span></div>
+                                    </div>
+                                  </div>
+                                  <div data-preview-valid="all" class="d--form-group"><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809620.809625&quot;}}],&quot;value&quot;:&quot;First Name&quot;}}">First Name</span><input type="default" class="d-input form-control" name="711b9880-6002-42aa-8cd4-0978b7cbebaf.809952" required="true" />
+                                    <div class="d--invalid-feedback"><span>Required field</span></div>
+                                  </div>
+                                  <div data-preview-valid="all" class="d--form-group"><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809620.809626&quot;}}],&quot;value&quot;:&quot;Last Name&quot;}}">Last Name</span><input type="default" class="d-input form-control" name="711b9880-6002-42aa-8cd4-0978b7cbebaf.809953" required="true" />
+                                    <div class="d--invalid-feedback"><span>Required field</span></div>
+                                  </div>
+                                  <div data-preview-valid="all" class="d--form-group" id="i9oe6c"><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809620.809624&quot;}}],&quot;value&quot;:&quot;Email&quot;}}">Email</span><input type="email" class="d-input form-control" name="711b9880-6002-42aa-8cd4-0978b7cbebaf.809948" placeholder="Email" required="true" />
+                                    <div class="d--invalid-feedback"><span>Required field</span></div>
+                                  </div>
+                                  <div id="i817z7">
+                                    <div data-preview-valid="all" class="d--form-group" id="imosfz"><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:{},&quot;filters&quot;:[],&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809620.809632&quot;}}],&quot;value&quot;:&quot;Email&quot;}}" id="iu9pen">Phone</span><input type="phone" class="d-input form-control" name="711b9880-6002-42aa-8cd4-0978b7cbebaf.809948" placeholder="Email" required="true" />
+                                      <div class="d--invalid-feedback"><span>Required field</span></div>
+                                    </div>
+                                  </div>
+                                  <div class="mb-1 text-danger small"><span>Email already in use</span></div>
+                                  <div data-preview-valid="all" class="d--form-group" id="i86k8m"><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809620.809623&quot;}}],&quot;value&quot;:&quot;Password&quot;}}">Password</span><input type="password" class="d-input form-control" name="711b9880-6002-42aa-8cd4-0978b7cbebaf.809949" required="true" />
+                                    <div class="d--invalid-feedback"><span>Required field</span></div>
+                                  </div>
+                                  <div>
+                                    <div data-df-repeating-with="{&quot;as&quot;:&quot;c9b7fdb0-4b82-484e-8c20-d1e3d17ac369&quot;,&quot;options&quot;:{&quot;expression&quot;:null,&quot;filters&quot;:[{&quot;type&quot;:&quot;custom_script&quot;,&quot;options&quot;:{&quot;code_id&quot;:13719,&quot;parameter_mapping&quot;:{&quot;146b73fb-366d-4053-9ae7-e0f05b054ac8&quot;:&quot;5abec5d3-d6cf-4052-8f19-b08a055f422b.401525&quot;}}}],&quot;type&quot;:&quot;endpoint&quot;,&quot;options&quot;:{&quot;endpoint_id&quot;:207211,&quot;path_variables&quot;:{&quot;2d2629aa-1c5e-4b96-8df0-54257fe6b5ec&quot;:&quot;35e6e1a8-e20b-401d-8c7e-7953c44cb144.809691&quot;},&quot;query_variables&quot;:null,&quot;header_variables&quot;:null,&quot;body_variables&quot;:null,&quot;property_path&quot;:&quot;&quot;}}}" class="mb-2">
+                                      <div>
+                                        <div>
+                                          <div data-preview-valid="all" class="d--form-group"><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:{},&quot;filters&quot;:[],&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;c9b7fdb0-4b82-484e-8c20-d1e3d17ac369.809393&quot;}}],&quot;value&quot;:&quot;Custom Field&quot;}}">Custom Field</span><input type="default" class="d-input form-control" required="true" />
+                                            <div class="d--invalid-feedback"><span>Required field</span></div>
+                                          </div>
+                                        </div>
+                                        <div>
+                                          <div data-preview-valid="all" class="d--form-group"><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:{},&quot;filters&quot;:[],&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;c9b7fdb0-4b82-484e-8c20-d1e3d17ac369.809393&quot;}}],&quot;value&quot;:&quot;Custom Field&quot;}}">Custom Field</span><input type="date" class="d-input form-control" required="true" />
+                                            <div class="d--invalid-feedback"><span>Required field</span></div>
+                                          </div>
+                                        </div>
+                                        <div>
+                                          <div data-df-type="rangeslider" className="d-rangeslider" classname="d-rangeslider" max="20" min="0" step="1" class="d-rangeslider d-flex align-items-center"></div>
+                                          <div data-preview-valid="all" class="d--form-group"><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:{},&quot;filters&quot;:[],&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;c9b7fdb0-4b82-484e-8c20-d1e3d17ac369.809393&quot;}}],&quot;value&quot;:&quot;Custom Field&quot;}}">Custom Field</span><input type="number" class="d-input form-control" required="true" />
+                                            <div class="d--invalid-feedback"><span>Required field</span></div>
+                                          </div>
+                                        </div>
+                                        <div>
+                                          <div><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:{},&quot;filters&quot;:[],&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;c9b7fdb0-4b82-484e-8c20-d1e3d17ac369.809393&quot;}}],&quot;value&quot;:&quot;Guests&quot;}}" class="mb-2">Guests</span></div>
+                                          <div><select class="d-input form-select" type="default">
+                                              <option>Select an option</option>
+                                              <option data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:{},&quot;filters&quot;:[],&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;cbfb2d64-cbc2-40af-8170-974e0743bd0d&quot;}}],&quot;value&quot;:&quot;Option 2&quot;},&quot;value&quot;:{&quot;attribute&quot;:&quot;value&quot;,&quot;options&quot;:[{&quot;expression&quot;:{},&quot;filters&quot;:[],&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;cbfb2d64-cbc2-40af-8170-974e0743bd0d&quot;}}],&quot;value&quot;:&quot;opt2&quot;}}" data-df-repeating-with="{&quot;as&quot;:&quot;cbfb2d64-cbc2-40af-8170-974e0743bd0d&quot;,&quot;options&quot;:{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;c9b7fdb0-4b82-484e-8c20-d1e3d17ac369.809395&quot;}}}" value="opt2">Option 2</option>
+                                            </select></div>
+                                        </div>
+                                        <div>
+                                          <div><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:{},&quot;filters&quot;:[],&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;c9b7fdb0-4b82-484e-8c20-d1e3d17ac369.809393&quot;}}],&quot;value&quot;:&quot;Guests&quot;}}" class="mb-2">Guests</span></div>
+                                          <div data-df-repeating-with="{&quot;as&quot;:&quot;b56cc265-5f71-4f99-8b5c-af70200870b2&quot;,&quot;options&quot;:{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;c9b7fdb0-4b82-484e-8c20-d1e3d17ac369.809394&quot;}}}" class="d-flex align-items-center"><label type="checkbox" class="d-checkbox m-0"><input type="checkbox" class="d-checkbox-input" /><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b56cc265-5f71-4f99-8b5c-af70200870b2.809490&quot;}}],&quot;value&quot;:&quot;Label&quot;}}" type="checkbox" class="d-form-label">Label</span></label></div>
+                                        </div>
+                                        <div>
+                                          <div data-df-repeating-with="{&quot;as&quot;:null,&quot;options&quot;:{&quot;value&quot;:&quot;&quot;,&quot;type&quot;:&quot;literal&quot;}}" class="d-flex align-items-center"><label type="checkbox" class="d-checkbox m-0"><input type="checkbox" class="d-checkbox-input" /><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:{},&quot;filters&quot;:[],&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;c9b7fdb0-4b82-484e-8c20-d1e3d17ac369.809393&quot;}}],&quot;value&quot;:&quot;Label&quot;}}" type="checkbox" class="d-form-label">Label</span></label></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="mb-3 text-danger small"><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809621.809463&quot;}}],&quot;value&quot;:&quot;By signing up, I agree to the Terms of Service, Payments Terms of Service, and Nondiscrimination Policy and acknowledge the Privacy Policy..&quot;}}" class="text-muted small">By signing up, I agree to the Terms of Service, Payments Terms of Service, and Nondiscrimination Policy and acknowledge the Privacy Policy..</span></div><a data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809613.809544&quot;}}],&quot;value&quot;:&quot;Sign Up&quot;}}" type="submit" class="btn btn-primary w-100">Sign Up</a>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                          <div data-df-type="tab-pane" class="d-tab-pane">
+                            <div class="d-modal-header">
+                              <h4 data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809613.809592&quot;}}],&quot;value&quot;:&quot;Log in&quot;}}">Log in</h4>
+                              <div class="d-flex">
+                                <div actions="[]"><label type="checkbox" class="d-radio p-0"><input type="radio" class="d-radio-input d-none" data-df-attributes="{&quot;value&quot;:{&quot;attribute&quot;:&quot;value&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;f5e350b3-bc86-4dd2-9630-6cf5a7aaaa2b&quot;}}],&quot;value&quot;:&quot;&quot;}}" name="5dc848a3-4bb3-43f6-aaa1-5742a4962e75" /><i class="fas fa-arrow-left"></i></label></div>
+                              </div>
+                            </div>
+                            <div class="d-modal-body">
+                              <form actions="[{&quot;trigger&quot;:&quot;onSubmit&quot;,&quot;polling_period&quot;:0,&quot;timeout&quot;:0,&quot;kind&quot;:&quot;run_action&quot;,&quot;options&quot;:{&quot;action&quot;:214714,&quot;input_variables&quot;:{}},&quot;action&quot;:null,&quot;input_variables&quot;:null}]">
+                                <div><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809620.809624&quot;}}],&quot;value&quot;:&quot;Email&quot;}}">Email</span>
+                                  <div data-preview-valid="all" class="d--form-group"><input type="email" class="d-input form-control form-control-lg" name="a6ce041d-46aa-4077-bf59-a3be97bb665e.809646" placeholder="" required="true" />
+                                    <div class="d--invalid-feedback"><span>Required field</span></div>
+                                  </div><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809620.809623&quot;}}],&quot;value&quot;:&quot;Password&quot;}}">Password</span>
+                                  <div data-preview-valid="all" class="d--form-group"><input type="password" class="d-input form-control form-control-lg" name="a6ce041d-46aa-4077-bf59-a3be97bb665e.809647" placeholder="" required="true" />
+                                    <div class="d--invalid-feedback"><span>Required field</span></div>
+                                  </div>
+                                  <div class="text-danger small"><span>Invalid email or password</span></div>
+                                  <div class="mb-3"><a data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809613.809603&quot;}}],&quot;value&quot;:&quot;Forgot password?&quot;}}" href="/forgot_password" type="spa" class="text-primary">Forgot password?</a></div><a data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809613.809592&quot;}}],&quot;value&quot;:&quot;Login&quot;}}" type="submit" class="btn btn-primary w-100">Login</a>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-modal d--closed" activetab="0" autoclose="outside" id="ipzdnj" name="09affb9b-7344-4ff6-96e3-d116dbdc377a">
+                  <div class="d-modal-wrapper">
+                    <div class="d-modal-box rounded">
+                      <form actions="[{&quot;trigger&quot;:&quot;onSubmit&quot;,&quot;polling_period&quot;:0,&quot;timeout&quot;:0,&quot;kind&quot;:&quot;run_action&quot;,&quot;options&quot;:{&quot;action&quot;:214600,&quot;input_variables&quot;:{}},&quot;action&quot;:null,&quot;input_variables&quot;:null}]">
+                        <div class="d-modal-body p-5">
+                          <div class="mb-3 fs-3 d-flex align-items-center justify-content-between"><i class="bi-envelope"></i>
+                            <div role="d-toggle-button"><i class="btn-close btn"></i></div>
+                          </div>
+                          <h4 data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:{},&quot;filters&quot;:[],&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809621.809464&quot;}}],&quot;value&quot;:&quot;Please verify your email address&quot;}}" class="mb-3">Please verify your email address</h4>
+                          <h5 data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:{},&quot;filters&quot;:[],&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809621.809465&quot;}}],&quot;value&quot;:&quot;Please verify your email address so we can send you your receipt and information on your order status. We are unable to send you email before your email has been verified. &quot;}}" class="mb-3">Please verify your email address so we can send you your receipt and information on your order status. We are unable to send you email before your email has been verified. </h5>
+                          <div class="d-modal d--closed" activetab="0" name="8cbc62a1-2989-4abe-b53e-bc30eed7e95c">
+                            <div class="d-modal-wrapper">
+                              <div class="d-modal-box rounded">
+                                <div class="d-modal-body p-5">
+                                  <div class="mb-3 fs-3 d-flex align-items-center justify-content-between"><i class="fa fa-lock"></i>
+                                    <div role="d-toggle-button"><i class="btn-close btn"></i></div>
+                                  </div>
+                                  <h4 data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809622.809117&quot;}}],&quot;value&quot;:&quot;You don't have publishing rights&quot;}}" class="mb-3">You don&#039;t have publishing rights</h4>
+                                  <h5 data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:{},&quot;filters&quot;:[],&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809622.809120&quot;}}],&quot;value&quot;:&quot;To publish listings you need to recieve publishing rights from the marketplace Admin&quot;}}" class="mb-3">To publish listings you need to recieve publishing rights from the marketplace Admin</h5><a actions="[{&quot;trigger&quot;:&quot;onMouseDown&quot;,&quot;polling_period&quot;:0,&quot;timeout&quot;:0,&quot;kind&quot;:&quot;run_action&quot;,&quot;options&quot;:{&quot;action&quot;:214590,&quot;input_variables&quot;:{&quot;accountProfileOpenUser&quot;:{&quot;dependencies&quot;:{&quot;variables&quot;:{&quot;currentUser&quot;:true},&quot;functions&quot;:{},&quot;rtk_queroes&quot;:null},&quot;jsx&quot;:&quot;{currentUser}&quot;}}},&quot;action&quot;:null,&quot;input_variables&quot;:null}]" role="d-toggle-button" type="spa" class="btn btn-primary btn-lg">Go to Account Page</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div><a actions="[{&quot;trigger&quot;:&quot;onClick&quot;,&quot;polling_period&quot;:0,&quot;timeout&quot;:0,&quot;kind&quot;:&quot;run_action&quot;,&quot;options&quot;:{&quot;action&quot;:214600,&quot;input_variables&quot;:{}},&quot;action&quot;:null,&quot;input_variables&quot;:null}]" data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809621.809466&quot;}}],&quot;value&quot;:&quot;Resend Email&quot;}}" class="d-button btn btn-primary">Resend Email</a>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xl-7 d-flex flex-column justify-content-center">
+                    <div id="iaah35">
+                      <div class="mx-auto mb-3">
+                        <div actions="[{&quot;trigger&quot;:&quot;onClick&quot;,&quot;polling_period&quot;:0,&quot;timeout&quot;:0,&quot;kind&quot;:&quot;run_action&quot;,&quot;options&quot;:{&quot;action&quot;:214607,&quot;input_variables&quot;:{&quot;modalShowLoginProviderRedirect&quot;:{&quot;dependencies&quot;:{&quot;variables&quot;:{&quot;CHECKBOX_TRUE&quot;:true},&quot;functions&quot;:{},&quot;rtk_queroes&quot;:null},&quot;jsx&quot;:&quot;{CHECKBOX_TRUE}&quot;}}},&quot;action&quot;:null,&quot;input_variables&quot;:null}]" class="d-button btn btn-lg ms-2"><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809613.809581&quot;}}],&quot;value&quot;:&quot;Become A Seller&quot;}}" class="me-2">Create a listing</span><i class="fa fas fa-angle-right"></i></div>
+                        <div actions="[{&quot;trigger&quot;:&quot;onClick&quot;,&quot;polling_period&quot;:0,&quot;timeout&quot;:0,&quot;kind&quot;:&quot;run_action&quot;,&quot;options&quot;:{&quot;action&quot;:214607,&quot;input_variables&quot;:{}},&quot;action&quot;:null,&quot;input_variables&quot;:null}]" class="d-button btn btn-primary btn-lg px-4"><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:{},&quot;filters&quot;:[],&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809613.809544&quot;}}],&quot;value&quot;:&quot;Get Started&quot;}}" class="me-2">Login</span><i class="fa fa-external-link"></i></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="results">
+              <div class="text-center py-4">
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <h1 data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809615.809223&quot;}}],&quot;value&quot;:&quot;Find your listing&quot;}}" id="iagm0g-2">Find your listing</h1>
+                      <h4 data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809615.809224&quot;}}],&quot;value&quot;:&quot;No matter where you are, we have the right listing for you.&quot;}}" class="text-muted">No matter where you are, we have the right listing for you.</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container py-4">
+                <div class="row">
+                  <div data-df-repeating-with="{&quot;as&quot;:&quot;ab7cc5e4-eb1c-4fe5-b509-f51e773933a5&quot;,&quot;options&quot;:{&quot;expression&quot;:null,&quot;filters&quot;:[],&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;c4c65e40-d6bd-461a-8c27-f32b19d6fd2e.809450&quot;}}}" class="col-sm-6 col-lg-3 col-md-4">
+                    <div class="card border-0">
+                      <div class="d-slider" activeslide="0" numSlides="1" numslides="1">
+                        <div class="d-slider-mask h-200px" role="d-mask">
+                          <div class="d-slide d--slide-active Slide" data-df-repeating-with="{&quot;as&quot;:&quot;bd6f8a2a-0295-41d4-a79a-cde3378b9cf1&quot;,&quot;options&quot;:{&quot;expression&quot;:null,&quot;filters&quot;:[{&quot;type&quot;:&quot;custom_script&quot;,&quot;options&quot;:{&quot;code_id&quot;:20000,&quot;parameter_mapping&quot;:{&quot;14535234-86f5-4aff-8d95-b170f689efc3&quot;:&quot;c0bc0c4f-a9c2-486f-bdb7-ab24a67ec491&quot;}}}],&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;ab7cc5e4-eb1c-4fe5-b509-f51e773933a5.809307&quot;}}}" role="d-slide">
+                            <div actions="[{&quot;trigger&quot;:&quot;onClick&quot;,&quot;polling_period&quot;:0,&quot;timeout&quot;:0,&quot;kind&quot;:&quot;run_action&quot;,&quot;options&quot;:{&quot;action&quot;:214672,&quot;input_variables&quot;:{&quot;OpenListingListing&quot;:{&quot;dependencies&quot;:{&quot;variables&quot;:{&quot;row&quot;:true},&quot;functions&quot;:{},&quot;rtk_queroes&quot;:null},&quot;jsx&quot;:&quot;{row.parent}&quot;}}},&quot;action&quot;:null,&quot;input_variables&quot;:null}]" class="h-200px position-relative rounded overflow-hidden gradient-overlay cursor-pointer"><img data-df-attributes="{&quot;src&quot;:{&quot;attribute&quot;:&quot;src&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;bd6f8a2a-0295-41d4-a79a-cde3378b9cf1.5&quot;}}],&quot;value&quot;:&quot;https://dittofipublicfiles.s3.us-west-2.amazonaws.com/eb8c6f3a-a3be-4eb7-a1eb-541ee79f3cd7-1cde4a47-a74f-46bc-9c91-1ea35510f3ed.jpg&quot;}}" src="https://dittofipublicfiles.s3.us-west-2.amazonaws.com/eb8c6f3a-a3be-4eb7-a1eb-541ee79f3cd7-1cde4a47-a74f-46bc-9c91-1ea35510f3ed.jpg" class="bg-image" /></div>
+                          </div>
+                          <div class="d-slide" role="d-slide"></div>
+                        </div>
+                        <div class="d-slider-arrow-left fs-3" role="d-slide-left"><i class="fas d-icon-slider-left fa-chevron-circle-left" aria-hidden="true"></i></div>
+                        <div class="d-slider-arrow-right fs-3" role="d-slide-right"><i class="fas d-icon-slider-right fa-chevron-circle-right" aria-hidden="true"></i></div>
+                        <div class="d-slider-nav">
+                          <div class="d-slider-dot"></div>
+                          <div class="d-slider-dot"></div>
+                        </div>
+                      </div>
+                      <div actions="[{&quot;trigger&quot;:&quot;onClick&quot;,&quot;polling_period&quot;:0,&quot;timeout&quot;:0,&quot;kind&quot;:&quot;run_action&quot;,&quot;options&quot;:{&quot;action&quot;:214672,&quot;input_variables&quot;:{&quot;OpenListingListing&quot;:{&quot;dependencies&quot;:{&quot;variables&quot;:{&quot;row&quot;:true},&quot;functions&quot;:{},&quot;rtk_queroes&quot;:null},&quot;jsx&quot;:&quot;{row}&quot;}}},&quot;action&quot;:null,&quot;input_variables&quot;:null}]" class="card-body px-0 cursor-pointer">
+                        <div class="d-flex">
+                          <div class="me-auto">
+                            <h6 data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;ab7cc5e4-eb1c-4fe5-b509-f51e773933a5.809304&quot;}}],&quot;value&quot;:&quot;Seaside Bungalow Escape&quot;}}" class="fw-bold m-0">Seaside Bungalow Escape</h6>
+                            <h6 data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:{},&quot;filters&quot;:[{&quot;type&quot;:&quot;custom_script&quot;,&quot;options&quot;:{&quot;code_id&quot;:46530,&quot;parameter_mapping&quot;:{&quot;581448bc-7b84-47b2-8078-9acf892578e1&quot;:&quot;cddddf8c-2f1e-42bf-ad83-318c32b3e736&quot;}}}],&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;ab7cc5e4-eb1c-4fe5-b509-f51e773933a5.809312&quot;}}],&quot;value&quot;:&quot;Bristol&quot;}}" class="text-muted m-0">Bristol</h6>
+                            <div id="icvp2q-2" class="d-flex">
+                              <h6 data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:[{&quot;type&quot;:&quot;custom_script&quot;,&quot;options&quot;:{&quot;code_id&quot;:46486,&quot;parameter_mapping&quot;:{}}}],&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;ab7cc5e4-eb1c-4fe5-b509-f51e773933a5.809305&quot;}}],&quot;value&quot;:&quot;$15.00&quot;}}" class="text-primary fw-bold m-0">$15.00</h6>
+                              <div id="i74nbz-2">
+                                <h6 data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:{},&quot;filters&quot;:[{&quot;type&quot;:&quot;custom_script&quot;,&quot;options&quot;:{&quot;code_id&quot;:46518,&quot;parameter_mapping&quot;:{}}}],&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;ab7cc5e4-eb1c-4fe5-b509-f51e773933a5.809339&quot;}}],&quot;value&quot;:&quot;$15.00&quot;}}" class="text-primary fw-bold m-0 ms-1">3h</h6>
+                              </div>
+                              <h6 data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;ab7cc5e4-eb1c-4fe5-b509-f51e773933a5.809321.809980.809663&quot;}}],&quot;value&quot;:&quot;night&quot;}}" class="text-primary fw-bold m-0 ms-1 text-capitalize">days</h6>
+                            </div>
+                          </div>
+                          <div class="d-flex ms-3">
+                            <div class="d-flex"><i class="fas fa-star text-primary fs-5" aria-hidden="true"></i></div>
+                            <h6 data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:{},&quot;filters&quot;:[{&quot;type&quot;:&quot;round&quot;,&quot;options&quot;:{&quot;precision&quot;:&quot;3dc05ab9-527e-4f28-a1a8-376ed92dc2c2&quot;}}],&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;ab7cc5e4-eb1c-4fe5-b509-f51e773933a5.809337&quot;}}],&quot;value&quot;:&quot;0&quot;}}" class="fw-bold m-0 ms-1">0</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col d-flex align-items-center justify-content-center"><a actions="[{&quot;trigger&quot;:&quot;onClick&quot;,&quot;polling_period&quot;:0,&quot;timeout&quot;:0,&quot;kind&quot;:&quot;run_action&quot;,&quot;options&quot;:{&quot;action&quot;:214601,&quot;input_variables&quot;:{&quot;listingsQuery_categoryID&quot;:{&quot;dependencies&quot;:{&quot;variables&quot;:{&quot;inputListingSearch&quot;:true},&quot;functions&quot;:{},&quot;rtk_queroes&quot;:null},&quot;jsx&quot;:&quot;{inputListingSearch[\&quot;category_id\&quot;]}&quot;},&quot;listingsQuery_currentLocation&quot;:{&quot;dependencies&quot;:{&quot;variables&quot;:{&quot;currentLocation&quot;:true},&quot;functions&quot;:{},&quot;rtk_queroes&quot;:null},&quot;jsx&quot;:&quot;{currentLocation}&quot;},&quot;listingsQuery_fromUser&quot;:{&quot;dependencies&quot;:{&quot;variables&quot;:{&quot;CHECKBOX_FALSE&quot;:true},&quot;functions&quot;:{},&quot;rtk_queroes&quot;:null},&quot;jsx&quot;:&quot;{CHECKBOX_FALSE}&quot;},&quot;listingsQuery_keyword&quot;:{&quot;dependencies&quot;:{&quot;variables&quot;:{&quot;inputListingSearch&quot;:true},&quot;functions&quot;:{},&quot;rtk_queroes&quot;:null},&quot;jsx&quot;:&quot;{inputListingSearch[\&quot;keywords\&quot;]}&quot;},&quot;listingsQuery_page&quot;:{&quot;dependencies&quot;:{&quot;variables&quot;:{&quot;inputListingSearch&quot;:true},&quot;functions&quot;:{},&quot;rtk_queroes&quot;:null},&quot;jsx&quot;:&quot;{inputListingSearch[\&quot;page\&quot;] + 1}&quot;}}},&quot;action&quot;:null,&quot;input_variables&quot;:null}]" class="btn btn-outline-primary mt-3">Load 50 More</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="position-sticky bottom-0 z-index-2">
+              <div class="bg-white py-3 d-none d-md-block border-top">
+                <div class="container">
+                  <div class="row align-items-center">
+                    <div class="col-md-8">
+                      <div class="d-flex align-items-center"><a data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809613.809553&quot;}}],&quot;value&quot;:&quot;Terms Of Service&quot;}}" href="/terms-of-service" type="spa" class="text-dark text-decoration-none">Terms Of Service</a><i class="fas mx-2 small fa-circle"></i><a data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809613.809540&quot;}}],&quot;value&quot;:&quot;Privacy Policy&quot;}}" href="/privacy-policy" type="spa" class="text-dark text-decoration-none">Privacy Policy</a><i class="fas mx-2 small fa-circle"></i><a data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809613.809564&quot;}}],&quot;value&quot;:&quot;About Us&quot;}}" href="/about-us" type="spa" class="text-dark text-decoration-none">About Us</a></div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="d-flex justify-content-end align-items-center"><select class="d-select form-select form-select-sm m-0 mw-100px text-uppercase d-non3 d-none" actions="[{&quot;trigger&quot;:&quot;onChange&quot;,&quot;polling_period&quot;:0,&quot;timeout&quot;:0,&quot;kind&quot;:&quot;run_action&quot;,&quot;options&quot;:{&quot;action&quot;:214727,&quot;input_variables&quot;:{&quot;currentMarketplaceTextsSetLanguage&quot;:{&quot;dependencies&quot;:{&quot;variables&quot;:{&quot;e&quot;:true},&quot;functions&quot;:{},&quot;rtk_queroes&quot;:null},&quot;jsx&quot;:&quot;{e.target.value}&quot;}}},&quot;action&quot;:null,&quot;input_variables&quot;:null}]" name="1eba46f5-a5e4-44f0-9115-264b09dfd118">
+                          <option data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;8089a4d0-8b6d-44cc-b0d6-812848f939a0&quot;}}],&quot;value&quot;:&quot;EN&quot;},&quot;value&quot;:{&quot;attribute&quot;:&quot;value&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;8089a4d0-8b6d-44cc-b0d6-812848f939a0&quot;}}],&quot;value&quot;:&quot;en&quot;}}" data-df-repeating-with="{&quot;as&quot;:&quot;8089a4d0-8b6d-44cc-b0d6-812848f939a0&quot;,&quot;options&quot;:{&quot;expression&quot;:null,&quot;filters&quot;:[{&quot;type&quot;:&quot;custom_script&quot;,&quot;options&quot;:{&quot;code_id&quot;:23985,&quot;parameter_mapping&quot;:{&quot;3c3ebbd9-2235-4a48-b73b-69690fa253bc&quot;:&quot;d5b93d52-f2ec-4d4a-80ad-db4ecb4cf831.485834&quot;}}}],&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;a80d2076-f90e-44a4-8d5b-5964fb11daef&quot;}}}" id="iq1yef" value="en">EN</option>
+                        </select><a type="spa" href="/" target="_self" class="d-inline-block text-dark text-decoration-none text-nowrap ms-2"><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[],&quot;value&quot;:&quot;© 2023 Dittofi University All rights Reserved&quot;}}" class="me-1">© 2025 sessions.guide</span></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-md-none border-top bg-white d-flex position-sticky bottom-0 w-100 justify-content-evenly"><a type="spa" href="/" target="_self" class="text-center flex-grow-1 text-primary text-decoration-none py-2 flex-basis-0">
+                  <div><i class="fas fa-search"></i></div>
+                  <div class="mt-1"><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809613.809563&quot;}}],&quot;value&quot;:&quot;Explore&quot;}}" id="i9hp5w">Explore</span></div>
+                </a>
+                <div actions="[{&quot;trigger&quot;:&quot;onClick&quot;,&quot;polling_period&quot;:0,&quot;timeout&quot;:0,&quot;kind&quot;:&quot;run_action&quot;,&quot;options&quot;:{&quot;action&quot;:214607,&quot;input_variables&quot;:{&quot;modalShowLoginProviderRedirect&quot;:{&quot;dependencies&quot;:{&quot;variables&quot;:{&quot;CHECKBOX_FALSE&quot;:true},&quot;functions&quot;:{},&quot;rtk_queroes&quot;:null},&quot;jsx&quot;:&quot;{CHECKBOX_FALSE}&quot;}}},&quot;action&quot;:null,&quot;input_variables&quot;:null}]" class="text-center flex-grow-1 text-dark text-decoration-none py-2 flex-basis-0">
+                  <div><i class="fas fa-user"></i></div>
+                  <div class="mt-1"><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809613.809592&quot;}}],&quot;value&quot;:&quot;Login&quot;}}">Login</span></div>
+                </div><a type="spa" href="/customer/favourites" target="_self" class="text-center flex-grow-1 text-dark text-decoration-none py-2 flex-basis-0">
+                  <div><i class="fas fa-heart"></i></div>
+                  <div class="mt-1"><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809613.809575&quot;}}],&quot;value&quot;:&quot;Wishlist&quot;}}">Wishlist</span></div>
+                </a><a type="spa" href="/customer/bookings" target="_self" class="text-center flex-grow-1 text-dark text-decoration-none py-2 flex-basis-0">
+                  <div><i class="fas fa-book"></i></div>
+                  <div class="mt-1"><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809613.809589&quot;}}],&quot;value&quot;:&quot;Trips&quot;}}">Trips</span></div>
+                </a><a type="spa" href="/customer/messages" target="_self" class="text-center flex-grow-1 text-dark text-decoration-none py-2 flex-basis-0">
+                  <div><i class="fas fa-comment"></i></div>
+                  <div class="mt-1"><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809613.809556&quot;}}],&quot;value&quot;:&quot;Messages&quot;}}">Messages</span></div>
+                </a><a type="spa" href="/account" target="_self" class="text-center flex-grow-1 text-dark text-decoration-none py-2 flex-basis-0">
+                  <div><i class="fas fa-user"></i></div>
+                  <div class="mt-1"><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;expression&quot;:null,&quot;filters&quot;:null,&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;b431ef57-5a71-43ab-b6c3-26b24fb94441.809613.809570&quot;}}],&quot;value&quot;:&quot;Profile&quot;}}">Profile</span></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="position-fixed bottom-0 end-0 p-3 z-999">
+        <div aria-atomic="true" aria-live="assertive" role="alert" class="toast show bg-success overflow-hidden">
+          <div class="toast-header border-0"><span data-df-attributes="{&quot;text&quot;:{&quot;attribute&quot;:&quot;text&quot;,&quot;options&quot;:[{&quot;type&quot;:&quot;variable&quot;,&quot;options&quot;:{&quot;variable&quot;:&quot;9a5153c8-0605-40ae-b0f5-3ffb0f4e957d&quot;}}],&quot;value&quot;:&quot;Listing added to favourites&quot;}}" class="me-auto">Session added to favourites</span><button class="btn-close" actions="[{&quot;trigger&quot;:&quot;onClick&quot;,&quot;polling_period&quot;:0,&quot;timeout&quot;:0,&quot;kind&quot;:&quot;run_action&quot;,&quot;options&quot;:{&quot;action&quot;:214595,&quot;input_variables&quot;:{}},&quot;action&quot;:null,&quot;input_variables&quot;:null}]" aria-label="Close" data-bs-dismiss="toast" type="button"></button></div>
+        </div>
+      </div>
+      <div class="view-toggle"><a type="spa" href="/listings/map" target="_self" class="d-inline-block btn btn-dark" id="iymi9t"><span id="i1f59j">Map View</span><i class="bi bi-view-list ms-2"></i></a></div>
+    </div>
+  </div>
+</body>
